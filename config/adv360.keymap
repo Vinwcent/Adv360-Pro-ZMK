@@ -70,11 +70,11 @@
         Mouse {
             display-name = "Red";
             bindings = <
-&none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                              &trans     &none           &none           &none           &none            &none  &none
-&none    &none         &kp W         &none         &none         &none         &none                                                              &none      &none           &none           &none           &none            &none  &none
-&kp ESC  &kp A         &kp S         &kp D         &none         &none         &none          &kp LCTRL  &kp LEFT_ALT      &bt BT_CLR  &none      &none      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP    &mmv MOVE_RIGHT  &none  &none
-&none    &none         &kp X         &none         &none         &none                                   &none             &none                             &none           &none           &none           &none            &none  &none
-&none    &none         &none         &none         &none                       &kp BACKSPACE  &tog 4     &none             &none       &mkp LCLK  &mkp RCLK                  &msc SCRL_UP    &msc SCRL_DOWN  &none            &none  &none
+&none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4  &none                                                              &trans     &none           &none           &none           &none            &none  &none
+&none    &none         &kp W         &none           &none            &none         &none                                                              &none      &none           &none           &none           &none            &none  &none
+&kp ESC  &kp A         &kp S         &kp D           &none            &none         &none          &kp LCTRL  &kp LEFT_ALT      &bt BT_CLR  &none      &none      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP    &mmv MOVE_RIGHT  &none  &none
+&none    &none         &kp X         &none           &none            &none                                   &none             &none                             &none           &none           &none           &none            &none  &none
+&none    &none         &none         &msc SCRL_LEFT  &msc SCRL_RIGHT                &kp BACKSPACE  &tog 4     &none             &none       &mkp LCLK  &mkp RCLK                  &msc SCRL_UP    &msc SCRL_DOWN  &none            &none  &none
             >;
         };
 
